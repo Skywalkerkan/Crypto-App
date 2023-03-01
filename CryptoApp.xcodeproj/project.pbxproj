@@ -7,23 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE50312629AF685400AFD3FB /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE50312529AF685400AFD3FB /* Network.swift */; };
 		DE5AA84229AD4D050036194A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5AA84129AD4D050036194A /* AppDelegate.swift */; };
 		DE5AA84429AD4D050036194A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5AA84329AD4D050036194A /* SceneDelegate.swift */; };
-		DE5AA84629AD4D050036194A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5AA84529AD4D050036194A /* ViewController.swift */; };
+		DE5AA84629AD4D050036194A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5AA84529AD4D050036194A /* MainVC.swift */; };
 		DE5AA84929AD4D050036194A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5AA84729AD4D050036194A /* Main.storyboard */; };
 		DE5AA84B29AD4D050036194A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE5AA84A29AD4D050036194A /* Assets.xcassets */; };
 		DE5AA84E29AD4D050036194A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE5AA84C29AD4D050036194A /* LaunchScreen.storyboard */; };
+		DEA8A80729AFAC1F00CCA53B /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = DEA8A80629AFAC1F00CCA53B /* Alamofire */; };
+		DEA8A80929AFAFFA00CCA53B /* Latest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8A80829AFAFFA00CCA53B /* Latest.swift */; };
+		DEA8A80B29AFB52C00CCA53B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8A80A29AFB52C00CCA53B /* Endpoint.swift */; };
+		DEA8A80D29AFB5FB00CCA53B /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8A80C29AFB5FB00CCA53B /* Errors.swift */; };
+		DEA8A80F29AFBABD00CCA53B /* HomeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8A80E29AFBABD00CCA53B /* HomeManager.swift */; };
+		DEA8A81129AFDC8F00CCA53B /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8A81029AFDC8F00CCA53B /* Info.swift */; };
+		DEA8A81429AFDE3A00CCA53B /* CoinCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8A81229AFDE3A00CCA53B /* CoinCells.swift */; };
+		DEA8A81529AFDE3A00CCA53B /* CoinCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEA8A81329AFDE3A00CCA53B /* CoinCells.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE50312529AF685400AFD3FB /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		DE5AA83E29AD4D050036194A /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE5AA84129AD4D050036194A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE5AA84329AD4D050036194A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE5AA84529AD4D050036194A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE5AA84529AD4D050036194A /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		DE5AA84829AD4D050036194A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE5AA84A29AD4D050036194A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE5AA84D29AD4D050036194A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE5AA84F29AD4D050036194A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA8A80829AFAFFA00CCA53B /* Latest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latest.swift; sourceTree = "<group>"; };
+		DEA8A80A29AFB52C00CCA53B /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		DEA8A80C29AFB5FB00CCA53B /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		DEA8A80E29AFBABD00CCA53B /* HomeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeManager.swift; sourceTree = "<group>"; };
+		DEA8A81029AFDC8F00CCA53B /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		DEA8A81229AFDE3A00CCA53B /* CoinCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCells.swift; sourceTree = "<group>"; };
+		DEA8A81329AFDE3A00CCA53B /* CoinCells.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoinCells.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +48,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA8A80729AFAC1F00CCA53B /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE50312129AF682F00AFD3FB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEA8A80829AFAFFA00CCA53B /* Latest.swift */,
+				DEA8A81029AFDC8F00CCA53B /* Info.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE50312229AF683500AFD3FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEA8A81229AFDE3A00CCA53B /* CoinCells.swift */,
+				DEA8A81329AFDE3A00CCA53B /* CoinCells.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE50312329AF683900AFD3FB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE5AA84529AD4D050036194A /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE50312429AF684500AFD3FB /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DE50312529AF685400AFD3FB /* Network.swift */,
+				DEA8A80A29AFB52C00CCA53B /* Endpoint.swift */,
+				DEA8A80C29AFB5FB00CCA53B /* Errors.swift */,
+				DEA8A80E29AFBABD00CCA53B /* HomeManager.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
 		DE5AA83529AD4D050036194A = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +111,12 @@
 		DE5AA84029AD4D050036194A /* CryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				DE50312429AF684500AFD3FB /* Network Manager */,
+				DE50312329AF683900AFD3FB /* Controller */,
+				DE50312229AF683500AFD3FB /* View */,
+				DE50312129AF682F00AFD3FB /* Model */,
 				DE5AA84129AD4D050036194A /* AppDelegate.swift */,
 				DE5AA84329AD4D050036194A /* SceneDelegate.swift */,
-				DE5AA84529AD4D050036194A /* ViewController.swift */,
 				DE5AA84729AD4D050036194A /* Main.storyboard */,
 				DE5AA84A29AD4D050036194A /* Assets.xcassets */,
 				DE5AA84C29AD4D050036194A /* LaunchScreen.storyboard */,
@@ -83,6 +141,9 @@
 			dependencies = (
 			);
 			name = CryptoApp;
+			packageProductDependencies = (
+				DEA8A80629AFAC1F00CCA53B /* Alamofire */,
+			);
 			productName = CryptoApp;
 			productReference = DE5AA83E29AD4D050036194A /* CryptoApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +172,9 @@
 				Base,
 			);
 			mainGroup = DE5AA83529AD4D050036194A;
+			packageReferences = (
+				DEA8A80529AFAC1F00CCA53B /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = DE5AA83F29AD4D050036194A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +191,7 @@
 			files = (
 				DE5AA84E29AD4D050036194A /* LaunchScreen.storyboard in Resources */,
 				DE5AA84B29AD4D050036194A /* Assets.xcassets in Resources */,
+				DEA8A81529AFDE3A00CCA53B /* CoinCells.xib in Resources */,
 				DE5AA84929AD4D050036194A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +203,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE5AA84629AD4D050036194A /* ViewController.swift in Sources */,
+				DEA8A80F29AFBABD00CCA53B /* HomeManager.swift in Sources */,
+				DEA8A80929AFAFFA00CCA53B /* Latest.swift in Sources */,
+				DEA8A81429AFDE3A00CCA53B /* CoinCells.swift in Sources */,
+				DE5AA84629AD4D050036194A /* MainVC.swift in Sources */,
+				DEA8A81129AFDC8F00CCA53B /* Info.swift in Sources */,
 				DE5AA84229AD4D050036194A /* AppDelegate.swift in Sources */,
+				DE50312629AF685400AFD3FB /* Network.swift in Sources */,
+				DEA8A80B29AFB52C00CCA53B /* Endpoint.swift in Sources */,
 				DE5AA84429AD4D050036194A /* SceneDelegate.swift in Sources */,
+				DEA8A80D29AFB5FB00CCA53B /* Errors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +430,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DEA8A80529AFAC1F00CCA53B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DEA8A80629AFAC1F00CCA53B /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEA8A80529AFAC1F00CCA53B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE5AA83629AD4D050036194A /* Project object */;
 }
